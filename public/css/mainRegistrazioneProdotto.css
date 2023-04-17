@@ -1,0 +1,242 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body,
+div,
+form,
+input,
+select,
+p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 24px;
+    color: #666;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 12px 0;
+    color: red;
+}
+
+.main-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+form {
+    width: 100%;
+   
+}
+
+fieldset {
+    border: none;
+    border-top: 1px solid black;
+}
+
+.account-details,
+.personal-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.account-details>div,
+.personal-details>div>div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.account-details>div,
+.personal-details>div,
+input,
+label {
+    width: 100%;
+}
+
+label {
+    padding: 0 5px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+input {
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+}
+
+select,
+.children,
+.gender,
+.bdate-block {
+    width: calc(100% + 26px);
+    padding: 5px 0;
+}
+
+select {
+    background: transparent;
+}
+
+.gender input {
+    width: auto;
+}
+
+.gender label {
+    padding: 0 5px 0 0;
+}
+
+.bdate-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.birthdate select.day {
+    width: 35px;
+}
+
+.birthdate select.mounth {
+    width: calc(100% - 94px);
+}
+
+.birthdate input {
+    width: 38px;
+    vertical-align: unset;
+}
+
+.checkbox input,
+.children input {
+    width: auto;
+    margin: -2px 10px 0 0;
+}
+
+.checkbox a {
+    color: rgb(6, 83, 184);
+}
+
+.checkbox a:hover {
+    color: rgb(6, 83, 184);
+}
+
+button {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: none;
+    background: rgb(6, 83, 184);
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+button:hover {
+    background: rgb(6, 83, 184);
+}
+
+@media (min-width: 568px) {
+
+    .account-details>div,
+    .personal-details>div {
+        width: 50%;
+    }
+
+    label {
+        width: 40%;
+    }
+
+    input {
+        width: 60%;
+    }
+
+    select,
+    .children,
+    .gender,
+    .bdate-block {
+        width: calc(60% + 16px);
+    }
+}
+
+
+textarea {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+    
+}
+
+
+
+#descrizione{
+ margin-left: -15px;
+}
+
+
+
+
+.btn-toolset {
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    text-decoration: none;
+    line-height: 1.2;
+    font-weight: normal;
+    font-family: sans-serif;
+    font-size: 18px;
+    background-color: #007BFF;
+    border-radius: 28px;
+    padding: 10px 13px;
+    border: 1px solid #006FE6;
+    cursor: pointer;
+   }
+   .btn-toolset:hover {
+    background-color: #0063CC;
+    border-color: #0056B3;
+   }
+   .btn-toolset > strong {
+    font-size: 24px;
+   }
+
+
+
+
+   div{
+    margin-top: 10px;
+   }

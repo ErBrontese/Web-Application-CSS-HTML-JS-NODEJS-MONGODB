@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+.navbar-brand,
+.navbar-nav>li>a {
+
+    height: 80px;
+    line-height: 50px;
+}
+
+.navbar {
+
+    padding-top: .5rem;
+    padding-bottom: .10rem;
+}
+
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+
+.navbar-nav {
+    padding-left: 20px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+dl,
+ol,
+ul {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+@media (max-width: 767px) {
+    #navbar-brand-title {
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #105469;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    background: #012B39;
+    border-radius: 0.25em;
+    border-collapse: collapse;
+    margin: 1em;
+    border: 1px solid white;
+}
+
+th {
+    border-bottom: 1px solid #364043;
+    color: #E2B842;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 0.5em 1em;
+    text-align: left;
+    border: 1px solid white;
+
+}
+
+td {
+    color: #fff;
+    font-weight: 400;
+    padding: 0.65em 1em;
+    border: 1px solid white;
+    width: 40%;
+}

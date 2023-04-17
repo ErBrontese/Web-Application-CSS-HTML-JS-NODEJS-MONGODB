@@ -1,0 +1,173 @@
+<div class="input-group">
+
+   //Input che vogliamo inserire 
+   	<input type="text" id="nameProdotto" placeholder="Nome Prodotto" value="" name="nameProdotto" required>
+    <label for="name"  class="input-label"> Nome Prodotto </label>
+
+</div>
+
+
+
+
+
+
+
+.input-group{
+
+  position:relative;
+}
+
+
+.input { 
+      padding:10px;
+	  border:none;
+	  border-radius:4px:
+	  font:inherit;
+	  color:#ffff;
+	  background-color: transparent;
+	  outline: 2px solid #ffff;
+	  width: 60%;
+	height: 40px;
+	margin-left: 20%;
+
+}
+
+
+
+
+.input-local{
+   position:absolute;
+   top:0;
+   left:0;
+   trasnform: translate(10px, 10px);
+   transition:trasnform .25s;
+
+
+}
+
+.input:focus+, input-label,
+.input:valid+, input-label{
+trasnform: translate (10px , -14px) scale(.8);
+color:#d1e5fc;
+padding-inline:5px;
+background-color: #242329;
+
+}
+
+
+
+.input:is(:focus, :valid){
+
+outline-color:#d1e5fe;
+}
+
+
+
+
+
+input {
+	width: 60%;
+	height: 40px;
+	margin-left: 20%;
+}
+
+<div>
+							<div class="indice" id="textCategoria" for="categoria"><i>Seleziona la categoria</i></div>
+							<select name="categoria" id="categoria" placeholder="Seleziona la categoria " required>
+								<option value="Seleziona la categoria">Seleziona la categoria</option>
+								<option value="Pistacchi">Pistacchi</option>
+								<option value="Noci">Noci</option>
+								<option value="Olio">Olio</option>
+								<option value="Nocciole">Nocciole</option>
+								<option value="Mandorle">Mandorle</option>
+							</select>
+						</div>
+
+
+						<!--ID EmailVenditoreRegistrato-->
+
+						<div style="display: none;">
+							<div for="nome" style="margin-left:-41% ; margin-top: 2%;"><i>Telefono</i></div>
+							<input type="text" id="idEmail" placeholder="idEmail" value="" name="idEmali" required>
+						</div>
+
+						<!--ID Prodotto inserito-->
+						<div style="display: none ;">
+							<label for="name">Image Title</label>
+							<input type="text" id="name" placeholder="Name" value="" name="name" required>
+						</div>
+
+
+
+
+
+
+
+<input type="text" id="nameProdotto"  cclass="input" placeholder="Nome Prodotto" value=""
+								name="nameProdotto" required>
+
+
+
+
+
+
+<!--Descrizione Prodotto-->
+
+						<div>
+							<div class="indice" for="nome" style="margin-top: 2%;"><i>Descrizione prodotto</i></div>
+							<textarea id="desc" name="desc" value="" rows="2" placeholder="Descrizione" required>
+							</textarea>
+						</div>
+
+
+						<!--Quantità Prodotto-->
+
+						<div>
+							<div class="indice" for="name" style=" margin-top: 2%;"><i>Quantità prodotto</i></div>
+							<input type="text" id="quantitàProdotto" placeholder="Quantità prodotto" value=""
+								name="quantitàProdotto" required>
+						</div>
+
+
+						<!--Prezzo Prodotto-->
+						<div>
+							<div class="indice" for="name" style=" margin-top: 2%; "><i>Prezzo</i></div>
+							<input type="number" id="prezzoProdotto" placeholder="Prezzo prodotto" value=""
+								name="prezzoProdotto" required>
+						</div>
+
+
+
+
+						<!--Nome Venditore-->
+						<div>
+							<div class="indice" for="nome" style=" margin-top: 2%; "><i>Nome</i></div>
+							<input type="text" id="nomeVendittore" placeholder="Nome vendittore" value=""
+								name="Nome Vendittore" required>
+						</div>
+
+						<!--Email Venditore-->
+
+						<div>
+							<div class="indice" for="nome" style="margin-top: 2%;"><i>Email</i></div>
+							<input type="text" id="emailVenditore" placeholder="Email venditore" value=""
+								name="Email Venditore" required>
+						</div>
+
+
+						<!--Telefono  Venditore-->
+						<div>
+							<div class="indice" for="nome" style=" margin-top: 2%;"><i>Telefono</i></div>
+							<input type="text" id="telefonoVenditore" placeholder="Telefono venditore" value=""
+								name="telefonoVenditore" required>
+						</div>
+
+
+						<div style="display: none;">
+							<div for="nome" style="margin-left:-41% ; margin-top: 2%;"><i>Telefono</i></div>
+							<input type="text" id="idEmail" placeholder="idEmail" value="" name="idEmali" required>
+						</div>
+
+						<div style="display: none;">
+							<input type="text" id="img" placeholder="Name" value="" name="img" required>
+						</div>

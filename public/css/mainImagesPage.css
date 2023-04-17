@@ -1,0 +1,1860 @@
+.mt-2 {
+    margin-top: 100px;
+}
+
+/*Help*/
+.big-text {
+    font-size: 70px;
+    font-weight: 900;
+
+}
+
+.med-text {
+    font-size: 40px;
+}
+
+.normal-text {
+    font-size: 20px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+
+
+.mt-1 {
+    margin-top: 50px;
+}
+
+.mt-2 {
+    margin-top: 100px;
+}
+
+.mt-3 {
+    margin-top: 150px;
+}
+
+.text_white {
+    color: white;
+}
+
+
+.text_black {
+    color: black;
+}
+
+
+/*Help*/
+
+
+
+
+
+/*Menu-alto */
+
+
+.navbar-brand,
+.navbar-nav>li>a {
+
+    height: 80px;
+    line-height: 50px;
+}
+
+
+.name {
+    display: inline-block;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+
+.navbar {
+
+    padding-top: .5rem;
+    padding-bottom: .10rem;
+}
+
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+
+.navbar-nav {
+    padding-left: 20px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+dl,
+ol,
+ul {
+    margin-top: 10px;
+    margin-bottom: 1rem;
+}
+
+
+#logo {
+    height: 70px;
+    width: 70px;
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .big-text {
+        font-size: 40px;
+        font-weight: 900;
+
+    }
+
+
+    .med-text {
+        font-size: 30px;
+    }
+
+
+    #mobile {
+        visibility: visible;
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+
+}
+
+
+
+#desc{
+   
+    resize: none;
+}
+
+
+
+
+
+
+
+.card {
+    width: 90%;
+    height: 900px;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+    border-radius: 8px;
+}
+
+
+
+.card-inner {
+
+    height: 900px;
+    background-color: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+.circle:nth-child(1) {
+    top: -25px;
+    left: -25px;
+
+}
+
+
+.circle:nth-child(2) {
+    bottom: -25px;
+    right: -25px;
+    animation-name: move-down;
+
+}
+
+
+
+
+
+@keyframes move-up {
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+
+@keyframes move-down {
+    to {
+        transform: translateY(-50px);
+    }
+}
+
+
+
+
+
+
+
+.input-group {
+    position: relative;
+    display: inline-block;
+    padding-top: 5%;
+    padding-left: 60%;
+
+
+}
+
+
+
+
+#descImmagine {
+    display: inline-block;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+
+#corniceImmagine {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+#caricamentoImmagine {
+    display: inline-block;
+    position: absolute;
+    margin-top: -25%;
+    margin-left: 10%;
+}
+
+
+
+.input {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font: inherit;
+    color: black;
+    background-color: transparent;
+    outline: 2px solid black;
+    width: 70%;
+    height: 2%;
+}
+
+
+#categoria {
+
+    border: none;
+    border-radius: 6px;
+    font: inherit;
+    color: black;
+    background-color: transparent;
+    outline: 2px solid black;
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 28%;
+    height: 40px;
+}
+
+
+
+
+
+.textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font: inherit;
+    color: black;
+    background-color: transparent;
+    outline: 2px solid black;
+    width: 30%;
+    height: 2%;
+
+}
+
+
+
+
+
+.input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    transform-origin: left;
+    transition: transform .25s;
+    padding-top: 5%;
+    padding-left: 60%;
+}
+
+.input:focus~.input-label,
+.input:valid~.input-label {
+    transform: translate(160px, -30px) scale(.8);
+    color: black;
+}
+
+.input:is(:focus, :valid) {
+    outline-color: black;
+}
+
+
+
+
+#contenitoreBottone {
+    position: absolute;
+    margin-top: -7%;
+    margin-left: 20%;
+}
+
+.send-button {
+    position: relative;
+    background: #21a82d;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 24px;
+    width: 180px;
+
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    cursor: pointer;
+}
+
+.send-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.send-button .progress {
+    content: "";
+    position: absolute;
+    background: linear-gradient(135deg, #21a82d 0%, #FCB54A 100%);
+    width: 0;
+    height: 16px;
+    top: 4px;
+    left: 4px;
+    border-radius: 50px;
+}
+
+.send-button .check {
+    /*   content: "✔"; */
+    position: absolute;
+    background: #5CB85C;
+    width: 32px;
+    height: 32px;
+    left: 95%;
+    border-radius: 50%;
+    opacity: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/*
+
+
+
+*/
+
+
+
+
+
+
+#carica>button,
+#bottone {
+    background-color: rgb(49, 122, 156);
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    width: 60%;
+    margin-bottom: 2%;
+}
+
+
+
+.background {
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+#titolo {
+    font-style: italic;
+    color: red;
+    font-size: 50px;
+    margin-left: 1%;
+}
+
+
+
+.infoTitolo {
+    font-style: italic;
+    color: red;
+
+}
+
+
+h3#set {
+    display: inline-block;
+    margin-top: 2%;
+}
+
+
+#selezionaFile {
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 20%;
+}
+
+
+
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+
+
+.footer {
+    background: #E3E3DF;
+    padding: 150px 10px;
+}
+
+
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.items1 {
+    flex-grow: 2;
+}
+
+
+.items2 {
+    flex-grow: 2;
+}
+
+
+
+.items3 {
+    flex-grow: 2;
+}
+
+
+
+textarea {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    background-color: field;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    padding: 2px;
+    margin-left: 1%;
+    border-radius: 6px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (min-width: 360px) {
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 245%;
+        margin-left: 10%;
+    }
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 260%;
+        margin-left: 2%;
+    }
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 110%;
+        margin-left: 10%;
+    }
+
+
+    .card {
+        height: 1400px;
+    }
+
+
+
+    .card-inner {
+        height: 1400px;
+    }
+
+
+    #fileupload {
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+    }
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 90%;
+        height: 2%;
+    }
+
+
+    .input-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(10px, 10px);
+        transform-origin: left;
+        transition: transform .25s;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+
+
+    }
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(5%, -30px) scale(.8);
+        color: black;
+    }
+
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 81%;
+        height: 40px;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 143%;
+        margin-left: 20%;
+    }
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+}
+
+
+
+@media (min-width: 375px) {
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 250%;
+        margin-left: 10%;
+    }
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 260%;
+        margin-left: 2%;
+    }
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 117%;
+        margin-left: 10%;
+    }
+
+
+    .card {
+        height: 1400px;
+    }
+
+
+
+    .card-inner {
+        height: 1400px;
+    }
+
+
+    #fileupload {
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+    }
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 90%;
+        height: 2%;
+    }
+
+
+    .input-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(10px, 10px);
+        transform-origin: left;
+        transition: transform .25s;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+
+
+    }
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(5%, -30px) scale(.8);
+        color: black;
+    }
+
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 81%;
+        height: 40px;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 143%;
+        margin-left: 20%;
+    }
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+
+
+}
+
+
+@media (min-width: 412px) {
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 230%;
+        margin-left: 10%;
+    }
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 250%;
+        margin-left: 3%;
+    }
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 100%;
+        margin-left: 10%;
+    }
+
+
+    .card {
+        height: 1400px;
+    }
+
+
+
+    .card-inner {
+        height: 1400px;
+    }
+
+
+    #fileupload {
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+    }
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 90%;
+        height: 2%;
+    }
+
+
+    .input-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(10px, 10px);
+        transform-origin: left;
+        transition: transform .25s;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+
+
+    }
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(5%, -30px) scale(.8);
+        color: black;
+    }
+
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 81%;
+        height: 40px;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 133%;
+        margin-left: 20%;
+    }
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color:  rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 414px) {
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 230%;
+        margin-left: 10%;
+    }
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 250%;
+        margin-left: 3%;
+    }
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 100%;
+        margin-left: 10%;
+    }
+
+
+    .card {
+        height: 1400px;
+    }
+
+
+
+    .card-inner {
+        height: 1400px;
+    }
+
+
+    #fileupload {
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+    }
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 90%;
+        height: 2%;
+    }
+
+
+    .input-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(10px, 10px);
+        transform-origin: left;
+        transition: transform .25s;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+
+
+    }
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(5%, -30px) scale(.8);
+        color: black;
+    }
+
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 81%;
+        height: 40px;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 133%;
+        margin-left: 20%;
+    }
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color:  rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+
+
+}
+
+
+@media (min-width: 520px) {
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 205%;
+        margin-left: 16%;
+    }
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 215%;
+        margin-left: 17%;
+    }
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 18%;
+    }
+
+
+    .card {
+        height: 1500px;
+    }
+
+
+
+    .card-inner {
+        height: 1500px;
+    }
+
+
+    #fileupload {
+        height: 50px;
+        width: 50px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+    }
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 90%;
+        height: 2%;
+    }
+
+
+    .input-label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(10px, 10px);
+        transform-origin: left;
+        transition: transform .25s;
+        padding-top: 15%;
+        padding-left: 10%;
+
+
+
+
+    }
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(5%, -30px) scale(.8);
+        color: black;
+    }
+
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 81%;
+        height: 40px;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 90%;
+        margin-left: 27%;
+    }
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color:  rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 80%;
+        height: 2%;
+    }
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 5%;
+        margin-left: 60%;
+        width: 32%;
+        height: 40px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 6%;
+        padding-left: 60%;
+
+
+    }
+
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(16%, -20px) scale(.8);
+        color: black;
+    }
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+
+
+}
+
+
+
+
+@media (min-width: 768px) {
+
+
+
+    .card {
+        width: 90%;
+        height: 780px;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 5%;
+        position: relative;
+        border-radius: 8px;
+    }
+
+
+
+    .card-inner {
+
+        height: 780px;
+        background-color: rgba(255, 255, 255, .05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+
+    }
+
+
+
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 80%;
+        height: 2%;
+    }
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 5%;
+        margin-left: 60%;
+        width: 32%;
+        height: 40px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 60%;
+
+
+    }
+
+    .input-label {
+
+
+
+        padding-top: 5%;
+        padding-left: 60%;
+    }
+
+
+
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(16%, -20px) scale(.8);
+        color: black;
+    }
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+
+
+
+
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 10%;
+    }
+
+
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 820px) {
+
+
+
+    .card {
+        width: 90%;
+        height: 830px;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 5%;
+        position: relative;
+        border-radius: 8px;
+    }
+
+
+
+    .card-inner {
+
+        height: 830px;
+        background-color: rgba(255, 255, 255, .05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+
+    }
+
+
+
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 80%;
+        height: 2%;
+    }
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 5%;
+        margin-left: 60%;
+        width: 32%;
+        height: 40px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 60%;
+
+
+    }
+
+    .input-label {
+
+
+
+        padding-top: 5%;
+        padding-left: 60%;
+    }
+
+
+
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(16%, -20px) scale(.8);
+        color: black;
+    }
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+
+
+
+
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 18%;
+    }
+
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 10%;
+    }
+
+
+
+
+    .circle {
+        width: 100px;
+        height: 100px;
+        background-color:  rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 912px) {
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 80%;
+        height: 2%;
+    }
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 5%;
+        margin-left: 60%;
+        width: 32%;
+        height: 40px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 6%;
+        padding-left: 60%;
+
+
+    }
+
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(16%, -20px) scale(.8);
+        color: black;
+    }
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 10%;
+    }
+
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 36%;
+        margin-left: 5%;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: -2%;
+        margin-left: 18%;
+    }
+
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: -20%;
+        margin-left: 10%;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 80%;
+        height: 2%;
+    }
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 5%;
+        margin-left: 60%;
+        width: 32%;
+        height: 40px;
+    }
+
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 6%;
+        padding-left: 60%;
+
+
+    }
+
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(16%, -20px) scale(.8);
+        color: black;
+    }
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 28%;
+        margin-left: 10%;
+    }
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: -12%;
+        margin-left: 18%;
+    }
+
+
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: -30%;
+        margin-left: 15%;
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 1280px) {
+
+
+    .circle {
+        width: 200px;
+        height: 200px;
+        background-color:  rgb(13, 105, 58);
+        border-radius: 50%;
+        position: absolute;
+        animation: move-up 2s ease-in infinite alternate-reverse;
+    }
+
+
+
+    .input {
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        width: 80%;
+        height: 2%;
+    }
+
+    #categoria {
+
+        border: none;
+        border-radius: 6px;
+        font: inherit;
+        color: black;
+        background-color: transparent;
+        outline: 2px solid black;
+        margin-top: 5%;
+        margin-left: 60%;
+        width: 32%;
+        height: 40px;
+    }
+
+
+
+
+    .input-group {
+        position: relative;
+        display: inline-block;
+        padding-top: 5%;
+        padding-left: 60%;
+    }
+
+
+
+    .input:focus~.input-label,
+    .input:valid~.input-label {
+        transform: translate(16%, -20px) scale(.8);
+        color: black;
+    }
+
+
+
+
+
+    #descImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+
+
+
+    #corniceImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 10%;
+    }
+
+    #caricamentoImmagine {
+        display: inline-block;
+        position: absolute;
+        margin-top: -25%;
+        margin-left: 10%;
+    }
+
+
+
+
+    #contenitoreBottone {
+        position: absolute;
+        margin-top: -7%;
+        margin-left: 20%;
+    }
+
+
+
+
+    .card {
+        width: 90%;
+        height: 900px;
+        display: inline-block;
+        margin-top: 5%;
+        margin-left: 5%;
+        position: relative;
+        border-radius: 8px;
+    }
+
+
+
+    .card-inner {
+
+        height: 900px;
+        background-color: rgba(255, 255, 255, .05);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        border-radius: 8px;
+
+    }
+
+}

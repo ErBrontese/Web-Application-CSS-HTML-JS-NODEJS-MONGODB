@@ -1,0 +1,2356 @@
+@media (min-width:280px) {
+
+
+
+
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 1%;
+
+        height: 80%;
+        width: 98%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 160%;
+        margin-left: 45%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 40%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 70%;
+        width: 20px;
+        padding: 0 0;
+        padding-left: 1.5%;
+        font-size: 14px;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50px;
+    }
+
+}
+
+
+
+@media (min-width:360px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 1%;
+
+        height: 80%;
+        width: 98%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioNome {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 135%;
+        margin-left: 53%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 75%;
+        width: 20px;
+        padding: 0 0;
+        padding-left: 1.5%;
+        font-size: 14px;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:375px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 1%;
+
+        height: 80%;
+        width: 98%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 115%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+
+
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 75%;
+        width: 20px;
+        padding: 0 0;
+        padding-left: 1.5%;
+        font-size: 14px;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50px;
+    }
+}
+
+
+
+@media (min-width:390px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 1%;
+
+        height: 80%;
+        width: 98%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+
+
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 75%;
+        width: 20px;
+        padding: 0 0;
+        padding-left: 1.5%;
+        font-size: 14px;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:414px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 1%;
+
+        height: 80%;
+        width: 98%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioNome {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 150%;
+        margin-left: 55%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 30%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: 5%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 75%;
+        width: 20px;
+        padding: 0 0;
+        padding-left: 1.5%;
+        font-size: 14px;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50px;
+    }
+
+}
+
+
+
+
+@media (min-width:540px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 1%;
+
+        height: 60%;
+        width: 98%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 60%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 2%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+
+
+    #desc {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #prezzo {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #nomeVenditore {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #emailVenditore {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+    #TelefonoVenditore {
+        height: 50%;
+        width: 110%;
+        margin-top: 15%;
+        margin-left: -15%;
+        resize: none;
+    }
+
+
+
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: -2%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 75%;
+        width: 20px;
+        padding: 0 0;
+        padding-left: 1.2%;
+        font-size: 14px;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50px;
+    }
+
+}
+
+
+
+
+
+
+
+/* Ipad mini*/
+@media (min-width:768px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 7%;
+
+        height: 40%;
+        width: 80%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: -4%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -3%;
+        margin-left: 72%;
+        width: 30px;
+        padding: 0 0;
+        font-size: 20px;
+        padding-left: 1.5%;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/* Ipad*/
+@media (min-width:820px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 7%;
+
+        height: 40%;
+        width: 80%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 62%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: -4%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -3%;
+        margin-left: 72%;
+        width: 30px;
+        font-size: 20px;
+        padding: 0 0;
+        padding-left: 1.5%;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    #mod {
+        visibility: hidden;
+        margin-top: 3%;
+        margin-left: 7%;
+
+        height: 70%;
+        width: 80%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 37%;
+        margin-left: 64%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -20%;
+        resize: none;
+    }
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 23px;
+        position: absolute;
+        margin-top: -4%;
+        margin-left: -13%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -3%;
+        margin-left: 72%;
+        width: 30px;
+        font-size: 20px;
+        padding: 0 0;
+        padding-left: 1.3%;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+
+@media (min-width:1280px) {
+    #mod {
+        visibility: hidden;
+        margin-top: -2%;
+        margin-left: 20%;
+
+        height: 70%;
+        width: 60%;
+        background: whitesmoke;
+        border-radius: 30px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+    #bottoneInvio {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioTitolo {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+    #bottoneInvioQuantità {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioPrezzo {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioNomeVenditore {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+
+
+    #bottoneInvioEmail {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioTelefono {
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 60%;
+        padding: 10px;
+        padding-left: 1%;
+        width: 100px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+        display: none;
+        font-style: italic;
+    }
+
+    #bottoneInvioImg {
+        display: none;
+        position: absolute;
+        margin-top: 45%;
+        margin-left: 50%;
+        padding: 12px;
+        padding-left: 5%;
+        width: 190px;
+        cursor: pointer;
+        background: rgb(60, 156, 58);
+        color: white;
+        transition: 2s ease;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+    #desc {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+
+    #titolo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+
+    #quantità {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+
+
+    #prezzo {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+
+    #nomeVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+
+    #emailVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+
+    #TelefonoVenditore {
+        height: 60%;
+        width: 112%;
+        margin-top: 10%;
+        margin-left: -25%;
+        resize: none;
+    }
+
+    #textDescrizione {
+        font-style: italic;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        margin-top: -4%;
+        margin-left: -19%;
+    }
+
+    #bottoneClose {
+        position: absolute;
+        margin-top: -5%;
+        margin-left: 68%;
+        width: 30px;
+        font-size: 20px;
+        padding: 0 0;
+        padding-left: 1.1%;
+        cursor: pointer;
+        background: rgb(214, 30, 68);
+        color: white;
+        transition: 2s ease;
+        border-radius: 50%;
+    }
+
+}

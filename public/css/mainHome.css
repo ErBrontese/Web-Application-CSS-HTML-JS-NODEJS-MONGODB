@@ -1,0 +1,813 @@
+/*Help*/
+.big-text {
+  font-size: 70px;
+  font-weight: 900;
+
+}
+
+.med-text {
+  font-size: 40px;
+}
+
+.normal-text {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+
+
+.mt-1 {
+  margin-top: 50px;
+}
+
+.mt-2 {
+  margin-top: 100px;
+}
+
+.mt-3 {
+  margin-top: 150px;
+}
+
+.text_white {
+  color: white;
+}
+
+
+/*Help*/
+
+/*Menu-alto */
+
+
+.navbar-brand,
+.navbar-nav>li>a {
+
+  height: 80px;
+  line-height: 50px;
+}
+
+
+.name{
+  display: inline-block;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+
+.navbar {
+
+  padding-top: .5rem;
+  padding-bottom: .10rem;
+}
+
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border-radius: .25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+
+
+.navbar-nav {
+  padding-left: 20px;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+
+dl,
+ol,
+ul {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+
+#logo {
+  height: 70px;
+  width: 70px;
+}
+
+
+
+
+@media (max-width: 767px) {
+  #navbar-brand-title {
+    font-size: 40px;
+  }
+
+}
+
+
+
+
+
+
+/*Menu-alto */
+
+/*COVER-INIZIO*/
+
+
+.poster {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.poster__img {
+
+
+  width: 65%;
+  height: 100%;
+}
+
+.poster__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.poster__content {
+  width: 35%;
+  padding: 50px;
+}
+
+
+#prodottiInseriti{
+  display: none;
+}
+
+#text {
+  margin-top: 20px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+
+#carousel-item-title {
+  margin-top: 50px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+#carousel-item-description {
+  margin-top: 130px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+
+#mobile {
+  visibility: hidden;
+}
+
+
+@media (max-width: 767px) {
+  .big-text {
+    font-size: 40px;
+    font-weight: 900;
+
+  }
+
+
+  .med-text {
+    font-size: 30px;
+  }
+
+
+  #mobile {
+    visibility: visible;
+    margin-top: 0;
+    margin-left: 0;
+
+  }
+
+}
+
+
+/*COVER-FINE*/
+
+
+/*HEADER-INZIALE*/
+
+
+@media (max-width: 768px) {
+  .poster {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .poster__img,
+  .poster__content {
+    width: 150%;
+  }
+
+  .poster__img {
+    width: 250%;
+    margin-left: 0px;
+
+
+  }
+}
+
+/*HEADER-FINALE*/
+
+
+
+/*HEADER-INIZIALE-2*/
+.bg-cover {
+  display: flex;
+  padding: 100px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+    url(/public/img/pexels-francesco-frilli-6511682.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+
+.menu a:hover {
+  color: red;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .bg-cover {
+    flex-wrap: wrap;
+    height: auto;
+    background-position: -10% 10%;
+  }
+
+  .bg-cover__text,
+  .bg-cover__title {
+    width: 100%;
+  }
+
+}
+
+.bg-cover__text {
+  width: 50%;
+  padding: 30px;
+}
+
+.bg-cover__title {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+.grid {
+  display: flex;
+  max-width: 1350px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.grid .col {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    flex-wrap: wrap;
+  }
+
+  .normal-text {
+    font-size: 14px;
+  }
+
+}
+
+/*HEADER-FINALE-2*/
+
+
+
+
+/* Carousel con i vari prodotti */
+
+.main-carousel {
+  padding: 40px 0;
+
+}
+
+.carousel-cell {
+  height: 350px;
+  width: 350px;
+  background: #316bff;
+  border-radius: 100%;
+  line-height: 350px;
+  text-align: center;
+  margin-right: 40px;
+
+
+}
+
+.bottone--menu {
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  opacity: 0;
+
+
+
+}
+
+
+
+#pistacchio {
+  background: url(/public/css/pistacchio.jpg);
+  background-size: contain;
+  background-position: 30% 40%;
+  border: 5px solid #316bff;
+}
+
+#noci {
+  background: url(../img/Mandorle.jpg) no-repeat;
+  background-size: contain;
+  background-position: 10% 30%;
+  border: 5px solid #316bff;
+}
+
+
+#noccioline {
+  background: url(/bootstrap-5.1.3-dist/img/noccioline.jpg) no-repeat;
+  background-size: cover;
+  border: 5px solid #316bff;
+}
+
+
+
+#mandorle {
+  background: url(/bootstrap-5.1.3-dist/img/Mandorle.jpg) no-repeat center center;
+  background-size: contain;
+  background-position: 1000% 60%;
+  border: 5px solid #316bff;
+}
+
+
+#olio {
+  background: url(/bootstrap-5.1.3-dist/img/olio\ .jpg) no-repeat center center;
+  background-size: contain;
+  background-position: 1000% 60%;
+  border: 5px solid #316bff;
+}
+
+
+
+/*footer*/
+.footer {
+  background: #010e30;
+  padding: 150px 10px;
+}
+
+
+
+
+/*Help*/
+.big-text {
+  font-size: 70px;
+  font-weight: 900;
+
+}
+
+.med-text {
+  font-size: 40px;
+}
+
+.normal-text {
+  font-size: 20px;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+
+
+.mt-1 {
+  margin-top: 50px;
+}
+
+.mt-2 {
+  margin-top: 100px;
+}
+
+.mt-3 {
+  margin-top: 150px;
+}
+
+.text_white {
+  color: white;
+}
+
+
+/*Help*/
+
+/*Menu-alto */
+
+
+.navbar-brand,
+.navbar-nav>li>a {
+
+  height: 80px;
+  line-height: 50px;
+}
+
+
+.navbar {
+
+  padding-top: .5rem;
+  padding-bottom: .10rem;
+}
+
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border-radius: .25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+
+
+.navbar-nav {
+  padding-left: 20px;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+
+dl,
+ol,
+ul {
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+
+#logo {
+  height: 70px;
+  width: 70px;
+}
+
+
+
+
+@media (max-width: 767px) {
+  #navbar-brand-title {
+    font-size: 40px;
+  }
+
+}
+
+
+
+
+#inserimentoProdotto {
+  display: none;
+}
+
+#gestione {
+  display: none;
+}
+
+
+#logout {
+
+  display: none;
+
+}
+
+
+
+/*Menu-alto */
+
+/*COVER-INIZIO*/
+
+
+.poster {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+}
+
+.poster__img {
+
+
+  width: 65%;
+  height: 100%;
+}
+
+.poster__img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.poster__content {
+  width: 35%;
+  padding: 50px;
+}
+
+#text {
+  margin-top: 20px;
+  margin-left: 100px;
+  position: absolute;
+}
+
+
+#carousel-item-title {
+  margin-top: 50px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+#carousel-item-description {
+  margin-top: 130px;
+  margin-left: 5px;
+  position: absolute;
+}
+
+
+#mobile {
+  visibility: hidden;
+}
+
+
+#descrizioneAcquistare{
+  font-size: 25px;
+}
+
+@media (max-width: 970px) {
+  .big-text {
+    font-size: 45px;
+    font-weight: 900;
+
+  }
+}
+
+
+.btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  display: block;
+}
+
+@media (max-width: 813px) {
+  .big-text {
+    font-size: 35px;
+    font-weight: 900;
+
+  }
+  #descrizioneAcquistare{
+    font-size: 20px;
+  }
+}
+@media (max-width: 870px) {
+  .big-text {
+    font-size: 36px;
+    font-weight: 900;
+
+  }
+}
+
+
+@media (max-width: 767px) {
+  .big-text {
+    font-size: 40px;
+    font-weight: 900;
+
+  }
+
+
+  .med-text {
+    font-size: 30px;
+  }
+
+
+  #mobile {
+    visibility: visible;
+    margin-top: 0;
+    margin-left: 0;
+
+  }
+
+}
+
+
+/*COVER-FINE*/
+
+
+/*HEADER-INZIALE*/
+
+
+@media (max-width: 768px) {
+  .poster {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .poster__img,
+  .poster__content {
+    width: 150%;
+  }
+
+  .poster__img {
+    width: 250%;
+    margin-left: 0px;
+
+
+  }
+}
+
+/*HEADER-FINALE*/
+
+
+
+/*HEADER-INIZIALE-2*/
+
+
+.menu a:hover {
+  color: red;
+}
+
+
+
+
+@media (min-width: 768px) {
+  .bg-cover {
+    flex-wrap: wrap;
+    height: auto;
+    background-position: -10% 10%;
+  }
+
+  .bg-cover__text,
+  .bg-cover__title {
+    width: 100%;
+  }
+
+}
+
+.bg-cover__text {
+  width: 50%;
+  padding: 30px;
+}
+
+.bg-cover__title {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+
+.grid {
+  display: flex;
+  max-width: 1350px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.grid .col {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    flex-wrap: wrap;
+  }
+
+  .normal-text {
+    font-size: 14px;
+  }
+
+}
+
+/*HEADER-FINALE-2*/
+
+
+
+
+/* Carousel con i vari prodotti */
+
+.main-carousel {
+  padding: 40px 0;
+
+}
+
+.carousel-cell {
+  height: 350px;
+  width: 350px;
+  background: #316bff;
+  border-radius: 100%;
+  line-height: 350px;
+  text-align: center;
+  margin-right: 40px;
+
+
+}
+
+.bottone--menu {
+  border-radius: 100%;
+  height: 350px;
+  width: 350px;
+  opacity: 0;
+
+
+
+}
+
+
+.bg-cover {
+  display: flex;
+  padding: 100px 0;
+  background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+    url(/img/pexels-francesco-frilli-6511682.jpg) no-repeat center center;
+  background-size: cover;
+
+}
+
+#pistacchio {
+  background: url(/img/pistacchio.jpg);
+  background-size: contain;
+  background-position: 30% 40%;
+  border: 5px solid #316bff;
+}
+
+#noci {
+  background: url(/img/noci.jpg) no-repeat;
+  background-size: contain;
+  background-position: 10% 30%;
+  border: 5px solid #316bff;
+}
+
+
+#noccioline {
+  background: url(/img/noccioline.jpg) no-repeat;
+  background-size: cover;
+  border: 5px solid #316bff;
+}
+
+
+
+#mandorle {
+  background: url(/img/Mandorle.jpg) no-repeat center center;
+  background-size: contain;
+  background-position: 1000% 60%;
+  border: 5px solid #316bff;
+}
+
+
+#olio {
+  background: url(/img/olio\ .jpg) no-repeat center center;
+  background-size: contain;
+  background-position: 1000% 60%;
+  border: 5px solid #316bff;
+}
+
+
+/*footer*/
+.footer {
+  background: #010e30;
+  padding: 150px 10px;
+}
+
+
+
+
+.footerflex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.items1 {
+  flex-grow: 2;
+}
+
+
+.items2 {
+  flex-grow: 2;
+}
+
+
+
+.items3 {
+  flex-grow: 2;
+}
