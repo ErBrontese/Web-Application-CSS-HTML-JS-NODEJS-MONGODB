@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/mainAutenticazione.css">
+
+  <title>Autenticazione</title>
+
+
+
+
+
+</head>
+
+<body>
+
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+
+
+  <form>
+    <h3>Registrazione</h3>
+
+    <div>
+      <label for="nome" style="margin-top: 30px;">Email</label>
+      <input type="text" id="emailRegistrazione" placeholder="Email" value="" name="emailRegistrazione" required>
+    </div>
+
+
+    <div>
+      <label style="margin-top: 30px;" for="nome">Password</label>
+      <input type="password" id="passwordRegistrazione" placeholder="Password" value="" name="passwordRegistrazione"
+        required>
+    </div>
+
+
+    <div id="msgErrorePassword"> Password Errata</div>
+    <div id="msgErroreAccount"> Account non esistente</div>
+
+    <div id="bottone">Accedi</div>
+    <a href="/registrazione.html" style="display: block; margin-left:80px; margin-top: 20px;">Crea un account</a>
+  </form>
+
+
+ <script type="text/javascript" src="/js/mainAutenticazione.js"></script>
+</body>
+
+</html>
